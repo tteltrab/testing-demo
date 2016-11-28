@@ -1,0 +1,21 @@
+language: node_js
+
+node_js:
+  - '4.2'
+
+cache:
+  directories:
+    - node_modules
+
+sudo: false
+
+branches:
+  except:
+    - gh-pages
+
+deploy:
+  skip_cleanup: true
+  provider: script
+  script: npm run deploy
+  on:
+    branch: master
