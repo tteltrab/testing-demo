@@ -16,6 +16,6 @@ branches:
 deploy:
   skip_cleanup: true
   provider: script
-  script: git subtree push --prefix site origin gh-pages
+  script: sh ./.deploy.sh
   on:
     branch: master
