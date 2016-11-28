@@ -3,10 +3,6 @@
   "version": "1.0.0",
   "description": "gh pages auto deploy test",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy": "git subtree push --prefix site origin gh-pages"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/tteltrab/testing-demo.git"
