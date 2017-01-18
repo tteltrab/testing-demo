@@ -11,7 +11,7 @@ git init
 
 # Configure Git
 git config user.name "Travis CI"
-git config user.email "nbartlett7@gmail.com"
+git config user.email "ecwu@live.unc.edu"
 
 # Commit all the things into the repo
 git add .
