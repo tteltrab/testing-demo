@@ -20,5 +20,11 @@
   "bugs": {
     "url": "https://github.com/tteltrab/testing-demo/issues"
   },
+  "scripts": {
+    "test": "html-validator --file=site/index.html --verbose"
+  },
+  "dependencies": {
+    "html-validator-cli": "^3.2.0"
+  },
   "homepage": "https://github.com/tteltrab/testing-demo#readme"
 }
